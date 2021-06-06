@@ -1,0 +1,6 @@
+{
+	"JDBC_DRIVER":"org.h2.Driver",
+	"DB_URL":"jdbc:h2:tcp://localhost/~/challenge",
+	"USER":"sa",
+	"PASS":""
+}
