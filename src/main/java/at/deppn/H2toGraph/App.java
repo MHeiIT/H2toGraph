@@ -21,6 +21,14 @@ public class App
 		Select sel = new Select(dbconfig);
 		
 		List<Point> list = sel.getPointList();
+		/*
+		while (list.size() != 0) {
+			Point p = list.remove(0);
+			
+			System.out.println(p.getUsername() + " " + p.getStart_date() + " " + p.getPoints());
+		}*/
+		
+		
 		
 		
 		
