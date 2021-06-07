@@ -33,6 +33,10 @@ public class App
 		Select sel = new Select(dbconfig);
 		
 		List<Point> list = sel.getPointList();
+		
+		
+		
+		
 		Collections.sort(list);
 		
 		HashSet<Integer> hs = new HashSet<Integer>();
